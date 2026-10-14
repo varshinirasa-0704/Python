@@ -111,5 +111,132 @@ enter your first no:6
 enter your second no:8
 enter your third no:9
 a is smaller: 6
+11.
+n=int(input("enter a no:"))
+if n>=0 &n<=99:
+  print("two digit no")
+else:
+  print("not a two digit no")
+ o/p
+enter a no:70
+two digit no
+12.
+n=int(input("enter a no:"))
+if n%5==5:
+  print("last digit is 5")
+else:
+  print("not last digit is 5")
+ o/p
+enter a no:50
+not last digit is 5
+13.
+a=input("enter a character:")
+if a.isupper():
+   print("upper case")
+else:
+   print ("lower case")
+ o/p
+enter a character:c
+lower case
+14.
+a=input("enter a value:")
+if a.isalpha():
+  print("alphabet")
+elif a.isdigit():
+  print("digit")
+else:
+  print("special character")
+ o/p
+enter a value:6
+digit
+15.
+a=int(input("enter a temperature:"))
+if(a>37):
+  print("above")
+elif(a<37):
+  print("below")
+else:
+  print("equal")
+ o/p
+enter a temperature:37
+equal
+16.
+bill=int(input("enter your bill:"))
+if bill>2000:
+  discount=bill*10/100
+  bill=bill-discount
+print("final bill=",bill)
+o/p
+enter your bill:2050
+final bill= 1845.0
+17.
+mark=int(input("enter a mark:"))
+attendance=float(input("enter a attendance:"))
+if(mark>=90) and (attendance>=85):
+   print("eligible")
+else:
+   print("not eligible")
+ o/p
+enter a mark:85
+enter a attendance:60
+not eligible
+18.
+count=0
+for i in range(1,51):
+    if(i %5==0):
+      count+=1
+print(count)
+o/p
+10
+19.
+sum=0
+for i in range(1,21):
+  if(i%2==0):
+    sum+=i
+print(sum)
+o/p
+110
+20.
+for i in range(1,31):
+  if(i%3==0) or (i%2==0):
+      print(i)
+  o/p
+ 20.
+ for i in range(1,31):
+  if(i%3==0) and (i%4!=0):
+      print(i)
+   o/p
+3
+6
+9
+15
+18
+21
+27
+30
+21.
+n = int(input("How many numbers? "))
+for i in range(n):
+    n = int(input("Enter a number: "))
+
+    if n > 0:
+        print("positive")
+    elif n < 0:
+        print("negative")
+    else:
+        print("zero")
+     o/p
+How many numbers? 2
+Enter a number: 4
+positive
+Enter a number: 6
+positive
+
+
+
+
+ 
+
+
 
 
