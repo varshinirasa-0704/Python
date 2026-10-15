@@ -231,6 +231,29 @@ Enter a number: 4
 positive
 Enter a number: 6
 positive
+21.peter son number
+n = int(input("Enter a number: "))
+temp = n
+total = 0
+
+while temp > 0:
+    digit = temp % 10
+    fact = 1
+
+    for i in range(1, digit + 1):
+        fact *= i
+
+    total += fact
+    temp //= 10
+
+if total == n:
+    print("Peterson number")
+else:
+    print("Not a Peterson number")
+o/p
+Enter a number: 6
+Not a Peterson number
+
 
 
 
