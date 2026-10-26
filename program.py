@@ -277,6 +277,60 @@ for i in range(5, 8):
      o/p
 5
 7
+24.
+word = input("Enter a word:")
+for i in word:
+  print (i)
+o/p
+Enter a word:python
+p
+y
+t
+h
+o
+n
+25.
+a=input("enter a string:")
+count=0
+for ch in a:
+  count+=1
+print("length of string:",count)
+o/p
+enter a string:python
+length of string: 6
+26.
+s = input("Enter a string: ")
+
+if s == s[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+o/p
+Enter a string: mam
+Palindrome
+27.
+a="varshini"
+b=19
+print(f"my name is {a}")
+print(f"my age is {b}")
+o/p
+my name is varshini
+my age is 19
+28.
+   a=str(input("enter a word:"))
+if a[0]==a[-1]:
+  print("same")
+else:
+  print("not same")
+o/p
+enter a word:google
+not same
+29.
+
+
+
+
+
 
 
 
