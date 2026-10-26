@@ -254,6 +254,32 @@ o/p
 Enter a number: 6
 Not a Peterson number
 
+22. print tables from getting the values from user
+num=int(input("enter a number:"))
+for i in range(1,11):
+  print(num ,"x", i ,"=",num*i) 
+o/p
+enter a number:6
+6 x 1 = 6
+6 x 2 = 12
+6 x 3 = 18
+6 x 4 = 24
+6 x 5 = 30
+6 x 6 = 36
+6 x 7 = 42
+6 x 8 = 48
+6 x 9 = 54
+6 x 10 = 60
+23.
+for i in range(5, 8):
+    if i == 5 or i == 7:
+        print(i)
+     o/p
+5
+7
+
+
+
 
 
 
