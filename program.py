@@ -355,6 +355,35 @@ a="h e l l o  w o r l d"
 print(a.replace("h e l l o  w o r l d","hello world"))
 O/P
 hello world
+32.
+a=input("enter a string:")
+v=0
+c=0
+for i in a:
+  if i.isalpha():
+    if i in "a,e.i.o.u":
+       v+=1
+  else:
+      c+=1
+print("vowels",v)
+print("consonant",c)
+o/p
+    enter a string:python
+vowels 1
+consonant 0
+33.
+a = input("Enter a string: ")
+v = 0
+
+for i in a.split():
+    if i [0]in "aeiou":
+        v += 1
+
+print("Vowels:", v)
+o/p
+Enter a string: an apple is on the table
+Vowels: 4
+34.
 
 
 
