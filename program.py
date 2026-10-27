@@ -326,6 +326,41 @@ o/p
 enter a word:google
 not same
 29.
+n=input("enter a string:")
+for i in n:
+  if n.count(i)==1:
+     print(i)
+     break
+   o/p
+enter a string:malayalam
+y
+30.
+n= input("enter a string:")
+count=0
+for i in n:
+  if n.count(i)>1:
+    print(i)
+o/p
+enter a string:varshini
+i
+i
+31.
+a=input("enter a string;")
+print(a[-2:])
+o/p
+enter a string;python
+on
+32.
+a="h e l l o  w o r l d"
+print(a.replace("h e l l o  w o r l d","hello world"))
+O/P
+hello world
+
+
+
+
+
+
 
 
 
