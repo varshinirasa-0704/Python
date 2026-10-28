@@ -384,6 +384,50 @@ o/p
 Enter a string: an apple is on the table
 Vowels: 4
 34.
+a="hello"
+b="world"
+if sorted(a)==sorted(b):
+  print("anagram")
+else:
+  print("not anagram")
+o/p
+not anagram
+35.
+stones = input("enter stones:")
+jewels = input("enter jewels:")
+count = 0
+
+for i in jewels:
+    if i in stones:
+        count += 1
+
+print(count)
+O/P
+enter stones:aAAbb
+enter jewels:aA
+2
+36.
+word = input("Enter a string: ")
+result = ""
+
+for ch in word:
+    if 'A' <= ch <= 'Z':
+        result += chr(ord(ch) + 32)
+    elif 'a' <= ch <= 'z':
+        result += chr(ord(ch) - 32)
+    else:
+        result += ch
+
+print(result)
+o/p
+Enter a string: python
+PYTHON
+37.
+
+
+
+
+
 
 
 
