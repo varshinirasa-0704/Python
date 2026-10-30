@@ -423,6 +423,53 @@ o/p
 Enter a string: python
 PYTHON
 37.
+words = input().split()
+count = []
+
+for i in words:
+    for j in words:
+        if i!= j and i in j:
+            count.append(i)
+            break
+
+print(count)
+o/p
+cat catalog dog eleohant
+['cat']
+38.
+num = eval(input())
+a=[]
+for i in num:
+  if i!=0:
+    a.append(i)
+for j in num:
+  if i == 0:
+    a.append(i)
+  print(a)
+ o/p
+39.
+num = eval(input())
+a=[]
+for i in num:
+  if i!=0:
+    a.append(i)
+for j in num:
+  if j == 0:
+    a.append(j)
+print(a)
+o/p
+[0,1,2,0,3]
+[1, 2, 3, 0, 0]
+40.
+nums = [0,1,0,3,12]
+for i in range(len(nums)):
+  if nums[i]==0:
+    nums.append(nums[i])
+    nums.remove(nums[i])
+print(nums)
+o/p
+[1, 3, 12, 0, 0]
+
 
 
 
