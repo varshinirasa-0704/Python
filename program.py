@@ -469,6 +469,31 @@ for i in range(len(nums)):
 print(nums)
 o/p
 [1, 3, 12, 0, 0]
+41.
+)a=input("enter the num1:")
+#b=input("enter the num2:")
+#c=list()
+#s1=a.split(a)
+#s2=b.split(b)
+#for i in s1:
+#  if i in s2 and i not in c:
+ #   c.append(i)
+#print("unique word:",c)
+o/p
+42.
+a=input("enter a number:")
+count=0
+for ch in a:
+  if a.count(ch) > 1:
+    print("true")
+    break
+else:
+    print("false")
+o/p
+ enter a number:(1,2,3,1)
+true
+
+
 
 
 
